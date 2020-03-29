@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{b8b63dd1-7a57-460c-bb16-7e6cf9628324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolKit">
+      <UniqueIdentifier>{0b60ea7e-009b-404a-89d1-063d0d335c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainInfo">
+      <UniqueIdentifier>{228a5191-1e50-4f84-b699-a18501d62f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{de64f244-3de9-4d48-b129-5862af562274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{1d667b05-dc1b-4d28-8b58-1a8320dd7f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{ef9052da-1119-4271-9e10-5c1533d01667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{dbddd19b-51b4-4421-b723-9bea7fe789d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{29b13c2d-9b1b-4939-90a8-226255c54555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{fbff680e-515b-49d6-9199-fb2e84b1e159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\CRC">
+      <UniqueIdentifier>{be0d4b66-9d2d-4f60-b945-397154679abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{ad96fad4-0dde-4adf-98b8-b848b1eb2229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\ItemManager">
+      <UniqueIdentifier>{815ef815-54c1-4a2a-b430-5a440aeb3aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{b031653e-0b49-44a4-a1d5-3b825376e0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{9b2c8436-cc1c-4660-8639-6b84cd04337c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{fe893c80-9003-4a0b-8a68-f5b478e5aca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Points">
+      <UniqueIdentifier>{52eb899b-42cd-486f-ba26-4bd055e0fe8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualFix">
+      <UniqueIdentifier>{3d1c5de2-881d-4ad2-950c-e414519c5238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reconnect">
+      <UniqueIdentifier>{046f96ef-bc29-4eff-98d9-13816fed2b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{b51d1a19-f84e-40a3-8185-41b412655387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{d551b3c5-9d8e-49a6-a6d9-2eff754ace85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Interface">
+      <UniqueIdentifier>{92eea679-7ee2-42ed-9e47-dc116ca69306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{64696c87-22cc-4135-964c-3ad85ff5414f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{c7b05fbf-c58e-4fe1-8f60-6d0799133ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HealthBar">
+      <UniqueIdentifier>{4f3139a9-8057-4997-b323-dc66f9a92d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\WingManager">
+      <UniqueIdentifier>{2dd131c0-d4ad-494e-9377-2246a7cbed2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{7ac45f59-4e67-48db-aab4-62574d85e476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiniMap">
+      <UniqueIdentifier>{d8f75a64-42e9-4882-a993-055439cbfcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\GlowManager">
+      <UniqueIdentifier>{e6a50720-443b-4522-b471-207497ac3537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\MathLib">
+      <UniqueIdentifier>{1fc6c24a-b2f0-43d3-98e4-d2df142d4b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Tokenizer">
+      <UniqueIdentifier>{b199fc2e-78c0-432d-8f94-d120d0042578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Encode">
+      <UniqueIdentifier>{31311a5e-c84f-408c-97d3-921595e3f15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\ReadScript">
+      <UniqueIdentifier>{97e38dca-b325-4acc-a4e3-901a839bbca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\DrawUserInfo">
+      <UniqueIdentifier>{8d33e97e-fd20-4ddb-882d-011bfea14c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{1ed41613-ba16-44c5-9821-406aff578542}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToolKit.cpp">
+      <Filter>ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInfo.cpp">
+      <Filter>MainInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Protect</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.cpp">
+      <Filter>Libs\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Items\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Points.cpp">
+      <Filter>Points</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualFix.cpp">
+      <Filter>VisualFix</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconnect.cpp">
+      <Filter>Reconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Interfaces\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>HealthBar</Filter>
+    </ClCompile>
+    <ClCompile Include="WingManager.cpp">
+      <Filter>Items\WingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GlowManager.cpp">
+      <Filter>Items\GlowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MathLib.cpp">
+      <Filter>Libs\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Encode.cpp">
+      <Filter>Libs\Encode</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUserInfo.cpp">
+      <Filter>Interfaces\DrawUserInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolKit.h">
+      <Filter>ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInfo.h">
+      <Filter>MainInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>Libs\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Items\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Points.h">
+      <Filter>Points</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualFix.h">
+      <Filter>VisualFix</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconnect.h">
+      <Filter>Reconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Interfaces\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>HealthBar</Filter>
+    </ClInclude>
+    <ClInclude Include="WingManager.h">
+      <Filter>Items\WingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>Items\GlowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib.h">
+      <Filter>Libs\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Libs\Tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Encode.h">
+      <Filter>Libs\Encode</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Libs\ReadScript</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUserInfo.h">
+      <Filter>Interfaces\DrawUserInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

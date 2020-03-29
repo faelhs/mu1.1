@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{099A81AF-5DD5-4EF2-96FA-BA7887EDA75D}</ProjectGuid>
+    <RootNamespace>Main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>Main</TargetName>
+    <OutDir>$(OutDir)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(OutDir)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CRC.cpp" />
+    <ClCompile Include="DrawUserInfo.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="GlowManager.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainInfo.cpp" />
+    <ClCompile Include="MathLib.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Plugins.cpp" />
+    <ClCompile Include="Points.cpp" />
+    <ClCompile Include="Protect.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Reconnect.cpp" />
+    <ClCompile Include="Encode.cpp" />
+    <ClCompile Include="ToolKit.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="VisualFix.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="WingManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="CRC.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="DrawUserInfo.h" />
+    <ClInclude Include="Encode.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GlowManager.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="MainInfo.h" />
+    <ClInclude Include="MathLib.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Packets.h" />
+    <ClInclude Include="Plugins.h" />
+    <ClInclude Include="Points.h" />
+    <ClInclude Include="Protect.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="ReadScript.h" />
+    <ClInclude Include="Reconnect.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Tokenizer.h" />
+    <ClInclude Include="ToolKit.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="VisualFix.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WingManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

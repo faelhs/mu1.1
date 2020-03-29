@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer\GameServer.vcxproj", "{8813F089-3648-498A-D889-67497C4C5FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugRelease|Win32 = DebugRelease|Win32
+		ENG|Win32 = ENG|Win32
+		ENGCS|Win32 = ENGCS|Win32
+		JPN|Win32 = JPN|Win32
+		JPNCS|Win32 = JPNCS|Win32
+		KOR|Win32 = KOR|Win32
+		KORCS|Win32 = KORCS|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8813F089-3648-498A-D889-67497C4C5FCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.Debug|Win32.Build.0 = Debug|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.DebugRelease|Win32.ActiveCfg = DebugRelease|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.DebugRelease|Win32.Build.0 = DebugRelease|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.ENG|Win32.ActiveCfg = ENG|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.ENG|Win32.Build.0 = ENG|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.ENGCS|Win32.ActiveCfg = ENGCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.ENGCS|Win32.Build.0 = ENGCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.JPN|Win32.ActiveCfg = JPN|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.JPN|Win32.Build.0 = JPN|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.JPNCS|Win32.ActiveCfg = JPNCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.JPNCS|Win32.Build.0 = JPNCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.KOR|Win32.ActiveCfg = KOR|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.KOR|Win32.Build.0 = KOR|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.KORCS|Win32.ActiveCfg = KORCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.KORCS|Win32.Build.0 = KORCS|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.Release|Win32.ActiveCfg = Release|Win32
+		{8813F089-3648-498A-D889-67497C4C5FCE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,309 @@
+﻿Build started 9/17/2019 1:28:05 AM.
+Project "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\GameServer\GameServer.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D INTERNATIONAL_KOREAN /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\GameServer___Win32_KOR\GameServer.pch" /FAcs /Fa".\GameServer___Win32_KOR\\" /Fo".\GameServer___Win32_KOR\\" /Fd".\GameServer___Win32_KOR\vc100.pdb" /FR"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+  StdAfx.cpp
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D INTERNATIONAL_KOREAN /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\GameServer___Win32_KOR\GameServer.pch" /FAcs /Fa".\GameServer___Win32_KOR\\" /Fo".\GameServer___Win32_KOR\\" /Fd".\GameServer___Win32_KOR\vc100.pdb" /FR"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\\" /Gd /TP /analyze- /errorReport:prompt cBoundRecordSet.cpp classdef.cpp Commands.cpp cRecordSet.cpp cSQL.cpp CSQLValue.cpp DropEvent.cpp EventManager.cpp HappyHour.cpp HealthBar.cpp ItemBagEx.cpp ItemBlock.cpp Log.cpp Lottery.cpp LuaExport.cpp MasterReset.cpp MiniDump.cpp MonsterHerd.cpp KalimaGate.cpp gObjMonster.cpp MonsterAttr.cpp MonsterItemMng.cpp MonsterSetBase.cpp DbSave.cpp DBSockMng.cpp DSProtocol.cpp Moves.cpp MuLua.cpp MuMsg.cpp MyWinsockBase.cpp News.cpp Privilege.cpp Reconnect.cpp Reset.cpp ServerDisplayer.cpp ServerInfo.cpp SProtocol.cpp protocol.cpp EDSProtocol.cpp NSerialCheck.cpp PacketCheckSum.cpp SQLManager.cpp TDurMagicKeyChecker.cpp SendHackLog.cpp DevilSquare.cpp DevilSquareGround.cpp BattleGround.cpp BattleSoccer.cpp BattleSoccerManager.cpp DragonEvent.cpp AttackEvent.cpp EledoradoEvent.cpp RingAttackEvent.cpp Tips.cpp ToolKit.cpp TSync.cpp CastleDeepEvent.cpp Event.cpp EventManagement.cpp ItemBag.cpp MagicDamage.cpp MagicInf.cpp SkillAdditionInfo.cpp SkillDelay.cpp SkillHitBox.cpp QuestInfo.cpp Vip.cpp wsGameServer.cpp WzMultiCastSock.cpp giocp.cpp wsJoinServerCli.cpp WzQueue.cpp WzUdp.cpp MapClass.cpp MapItem.cpp ChaosBox.cpp AcceptIp.cpp CLoginCount.cpp ClosePlayer.cpp ConMember.cpp IpCache.cpp DirPath.cpp LogToFile.cpp MoveCheck.cpp winutil.cpp WhisperCash.cpp zzzmathlib.cpp WZScriptEncode.cpp CWhatsUpDummyServer.cpp TNotice.cpp CallStackTrace.cpp PartyClass.cpp GuildClass.cpp ViewportGuild.cpp ObjAttack.cpp ObjBaseAttack.cpp ObjUseSkill.cpp StatMng.cpp ComboAttack.cpp ObjCalCharacter.cpp DarkSpirit.cpp TUnion.cpp TUnionInfo.cpp user.cpp JewelMixSystem.cpp SetItemOption.cpp zzzitem.cpp Shop.cpp GMMng.cpp MoveCommand.cpp SetItemMacro.cpp GameMain.cpp GameServer.cpp Gate.cpp BloodCastle.cpp ChaosCastle.cpp CannonTower.cpp CastleCrown.cpp CastleCrownSwitch.cpp Guardian.cpp GuardianStatue.cpp LifeStone.cpp Mercenary.cpp Weapon.cpp CastleSiege.cpp CastleSiegeSync.cpp MapServerManager.cpp NpcTalk.cpp TRandomPoolMgr.cpp LargeRand.cpp MultiCheckSum.cpp WzMemScript.cpp
+  cBoundRecordSet.cpp
+  classdef.cpp
+  Commands.cpp
+  cRecordSet.cpp
+  cSQL.cpp
+  CSQLValue.cpp
+  DropEvent.cpp
+  EventManager.cpp
+  HappyHour.cpp
+  HealthBar.cpp
+  ItemBagEx.cpp
+  ItemBlock.cpp
+  Log.cpp
+  Lottery.cpp
+  LuaExport.cpp
+  MasterReset.cpp
+  MiniDump.cpp
+  MonsterHerd.cpp
+  KalimaGate.cpp
+  gObjMonster.cpp
+  Delete this unuseful Code with ADDON gObjMonsterAttack
+  Apply this to create SkyLandShielkds -> gObjSkylandBossSheildAttack 
+  gObjMonsterDieRewardItems Can be activate with the gObjMonsterItemDropLoadScript
+  Generating Code...
+  Compiling...
+  MonsterAttr.cpp
+  MonsterItemMng.cpp
+  MonsterSetBase.cpp
+  DbSave.cpp
+  DBSockMng.cpp
+  DSProtocol.cpp
+  Moves.cpp
+  MuLua.cpp
+  MuMsg.cpp
+  MyWinsockBase.cpp
+  News.cpp
+  Privilege.cpp
+  Reconnect.cpp
+  Reset.cpp
+  ServerDisplayer.cpp
+  ServerInfo.cpp
+  SProtocol.cpp
+  protocol.cpp
+  EDSProtocol.cpp
+  NSerialCheck.cpp
+  Generating Code...
+  Compiling...
+  PacketCheckSum.cpp
+  SQLManager.cpp
+  TDurMagicKeyChecker.cpp
+  SendHackLog.cpp
+  DevilSquare.cpp
+  DevilSquareGround.cpp
+  BattleGround.cpp
+  BattleSoccer.cpp
+  BattleSoccerManager.cpp
+  DragonEvent.cpp
+  AttackEvent.cpp
+  EledoradoEvent.cpp
+  RingAttackEvent.cpp
+  Tips.cpp
+  ToolKit.cpp
+  TSync.cpp
+  CastleDeepEvent.cpp
+  Event.cpp
+  EventManagement.cpp
+  ItemBag.cpp
+  Generating Code...
+  Compiling...
+  MagicDamage.cpp
+  MagicInf.cpp
+  SkillAdditionInfo.cpp
+  SkillDelay.cpp
+  SkillHitBox.cpp
+  QuestInfo.cpp
+  Vip.cpp
+  wsGameServer.cpp
+  WzMultiCastSock.cpp
+  giocp.cpp
+  wsJoinServerCli.cpp
+  WzQueue.cpp
+  WzUdp.cpp
+  MapClass.cpp
+  MapItem.cpp
+  ChaosBox.cpp
+  AcceptIp.cpp
+  CLoginCount.cpp
+  ClosePlayer.cpp
+  ConMember.cpp
+  Generating Code...
+  Compiling...
+  IpCache.cpp
+  DirPath.cpp
+  LogToFile.cpp
+  MoveCheck.cpp
+  winutil.cpp
+  WhisperCash.cpp
+  zzzmathlib.cpp
+  WZScriptEncode.cpp
+  CWhatsUpDummyServer.cpp
+  TNotice.cpp
+  CallStackTrace.cpp
+  PartyClass.cpp
+  GuildClass.cpp
+  ViewportGuild.cpp
+  ObjAttack.cpp
+  ObjBaseAttack.cpp
+  ObjUseSkill.cpp
+  StatMng.cpp
+  ComboAttack.cpp
+  ObjCalCharacter.cpp
+  Generating Code...
+  Compiling...
+  DarkSpirit.cpp
+  TUnion.cpp
+  TUnionInfo.cpp
+  user.cpp
+  JewelMixSystem.cpp
+  SetItemOption.cpp
+  zzzitem.cpp
+  Shop.cpp
+  GMMng.cpp
+  MoveCommand.cpp
+  SetItemMacro.cpp
+  GameMain.cpp
+  GameServer.cpp
+  Optimize this loops on WndProc
+  Gate.cpp
+  BloodCastle.cpp
+  ChaosCastle.cpp
+  CannonTower.cpp
+  CastleCrown.cpp
+  CastleCrownSwitch.cpp
+  Guardian.cpp
+  Generating Code...
+  Compiling...
+  GuardianStatue.cpp
+  LifeStone.cpp
+  Mercenary.cpp
+  Weapon.cpp
+  CastleSiege.cpp
+  CastleSiegeSync.cpp
+  MapServerManager.cpp
+  NpcTalk.cpp
+  TRandomPoolMgr.cpp
+  LargeRand.cpp
+  MultiCheckSum.cpp
+  WzMemScript.cpp
+  Generating Code...
+ResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.res" GameServer.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /ManifestFile:"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\GameServer___Win32_KOR\GameServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\GameServer.lib" /MACHINE:X86 "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.res"
+  .\GameServer___Win32_KOR\cBoundRecordSet.obj
+  .\GameServer___Win32_KOR\classdef.obj
+  .\GameServer___Win32_KOR\Commands.obj
+  .\GameServer___Win32_KOR\cRecordSet.obj
+  .\GameServer___Win32_KOR\cSQL.obj
+  .\GameServer___Win32_KOR\CSQLValue.obj
+  .\GameServer___Win32_KOR\DropEvent.obj
+  .\GameServer___Win32_KOR\EventManager.obj
+  .\GameServer___Win32_KOR\HappyHour.obj
+  .\GameServer___Win32_KOR\HealthBar.obj
+  .\GameServer___Win32_KOR\ItemBagEx.obj
+  .\GameServer___Win32_KOR\ItemBlock.obj
+  .\GameServer___Win32_KOR\Log.obj
+  .\GameServer___Win32_KOR\Lottery.obj
+  .\GameServer___Win32_KOR\LuaExport.obj
+  .\GameServer___Win32_KOR\MasterReset.obj
+  .\GameServer___Win32_KOR\MiniDump.obj
+  .\GameServer___Win32_KOR\MonsterHerd.obj
+  .\GameServer___Win32_KOR\KalimaGate.obj
+  .\GameServer___Win32_KOR\gObjMonster.obj
+  .\GameServer___Win32_KOR\MonsterAttr.obj
+  .\GameServer___Win32_KOR\MonsterItemMng.obj
+  .\GameServer___Win32_KOR\MonsterSetBase.obj
+  .\GameServer___Win32_KOR\DbSave.obj
+  .\GameServer___Win32_KOR\DBSockMng.obj
+  .\GameServer___Win32_KOR\DSProtocol.obj
+  .\GameServer___Win32_KOR\Moves.obj
+  .\GameServer___Win32_KOR\MuLua.obj
+  .\GameServer___Win32_KOR\MuMsg.obj
+  .\GameServer___Win32_KOR\MyWinsockBase.obj
+  .\GameServer___Win32_KOR\News.obj
+  .\GameServer___Win32_KOR\Privilege.obj
+  .\GameServer___Win32_KOR\Reconnect.obj
+  .\GameServer___Win32_KOR\Reset.obj
+  .\GameServer___Win32_KOR\ServerDisplayer.obj
+  .\GameServer___Win32_KOR\ServerInfo.obj
+  .\GameServer___Win32_KOR\SProtocol.obj
+  .\GameServer___Win32_KOR\protocol.obj
+  .\GameServer___Win32_KOR\EDSProtocol.obj
+  .\GameServer___Win32_KOR\NSerialCheck.obj
+  .\GameServer___Win32_KOR\PacketCheckSum.obj
+  .\GameServer___Win32_KOR\SQLManager.obj
+  .\GameServer___Win32_KOR\TDurMagicKeyChecker.obj
+  .\GameServer___Win32_KOR\SendHackLog.obj
+  .\GameServer___Win32_KOR\DevilSquare.obj
+  .\GameServer___Win32_KOR\DevilSquareGround.obj
+  .\GameServer___Win32_KOR\BattleGround.obj
+  .\GameServer___Win32_KOR\BattleSoccer.obj
+  .\GameServer___Win32_KOR\BattleSoccerManager.obj
+  .\GameServer___Win32_KOR\DragonEvent.obj
+  .\GameServer___Win32_KOR\AttackEvent.obj
+  .\GameServer___Win32_KOR\EledoradoEvent.obj
+  .\GameServer___Win32_KOR\RingAttackEvent.obj
+  .\GameServer___Win32_KOR\Tips.obj
+  .\GameServer___Win32_KOR\ToolKit.obj
+  .\GameServer___Win32_KOR\TSync.obj
+  .\GameServer___Win32_KOR\CastleDeepEvent.obj
+  .\GameServer___Win32_KOR\Event.obj
+  .\GameServer___Win32_KOR\EventManagement.obj
+  .\GameServer___Win32_KOR\ItemBag.obj
+  .\GameServer___Win32_KOR\MagicDamage.obj
+  .\GameServer___Win32_KOR\MagicInf.obj
+  .\GameServer___Win32_KOR\SkillAdditionInfo.obj
+  .\GameServer___Win32_KOR\SkillDelay.obj
+  .\GameServer___Win32_KOR\SkillHitBox.obj
+  .\GameServer___Win32_KOR\QuestInfo.obj
+  .\GameServer___Win32_KOR\Vip.obj
+  .\GameServer___Win32_KOR\wsGameServer.obj
+  .\GameServer___Win32_KOR\WzMultiCastSock.obj
+  .\GameServer___Win32_KOR\giocp.obj
+  .\GameServer___Win32_KOR\wsJoinServerCli.obj
+  .\GameServer___Win32_KOR\WzQueue.obj
+  .\GameServer___Win32_KOR\WzUdp.obj
+  .\GameServer___Win32_KOR\MapClass.obj
+  .\GameServer___Win32_KOR\MapItem.obj
+  .\GameServer___Win32_KOR\ChaosBox.obj
+  .\GameServer___Win32_KOR\AcceptIp.obj
+  .\GameServer___Win32_KOR\CLoginCount.obj
+  .\GameServer___Win32_KOR\ClosePlayer.obj
+  .\GameServer___Win32_KOR\ConMember.obj
+  .\GameServer___Win32_KOR\IpCache.obj
+  .\GameServer___Win32_KOR\DirPath.obj
+  .\GameServer___Win32_KOR\LogToFile.obj
+  .\GameServer___Win32_KOR\MoveCheck.obj
+  .\GameServer___Win32_KOR\winutil.obj
+  .\GameServer___Win32_KOR\WhisperCash.obj
+  .\GameServer___Win32_KOR\zzzmathlib.obj
+  .\GameServer___Win32_KOR\WZScriptEncode.obj
+  .\GameServer___Win32_KOR\CWhatsUpDummyServer.obj
+  .\GameServer___Win32_KOR\TNotice.obj
+  .\GameServer___Win32_KOR\CallStackTrace.obj
+  .\GameServer___Win32_KOR\PartyClass.obj
+  .\GameServer___Win32_KOR\GuildClass.obj
+  .\GameServer___Win32_KOR\ViewportGuild.obj
+  .\GameServer___Win32_KOR\ObjAttack.obj
+  .\GameServer___Win32_KOR\ObjBaseAttack.obj
+  .\GameServer___Win32_KOR\ObjUseSkill.obj
+  .\GameServer___Win32_KOR\StatMng.obj
+  .\GameServer___Win32_KOR\ComboAttack.obj
+  .\GameServer___Win32_KOR\ObjCalCharacter.obj
+  .\GameServer___Win32_KOR\DarkSpirit.obj
+  .\GameServer___Win32_KOR\TUnion.obj
+  .\GameServer___Win32_KOR\TUnionInfo.obj
+  .\GameServer___Win32_KOR\user.obj
+  .\GameServer___Win32_KOR\JewelMixSystem.obj
+  .\GameServer___Win32_KOR\SetItemOption.obj
+  .\GameServer___Win32_KOR\zzzitem.obj
+  .\GameServer___Win32_KOR\Shop.obj
+  .\GameServer___Win32_KOR\GMMng.obj
+  .\GameServer___Win32_KOR\MoveCommand.obj
+  .\GameServer___Win32_KOR\SetItemMacro.obj
+  .\GameServer___Win32_KOR\GameMain.obj
+  .\GameServer___Win32_KOR\StdAfx.obj
+  .\GameServer___Win32_KOR\GameServer.obj
+  .\GameServer___Win32_KOR\Gate.obj
+  .\GameServer___Win32_KOR\BloodCastle.obj
+  .\GameServer___Win32_KOR\ChaosCastle.obj
+  .\GameServer___Win32_KOR\CannonTower.obj
+  .\GameServer___Win32_KOR\CastleCrown.obj
+  .\GameServer___Win32_KOR\CastleCrownSwitch.obj
+  .\GameServer___Win32_KOR\Guardian.obj
+  .\GameServer___Win32_KOR\GuardianStatue.obj
+  .\GameServer___Win32_KOR\LifeStone.obj
+  .\GameServer___Win32_KOR\Mercenary.obj
+  .\GameServer___Win32_KOR\Weapon.obj
+  .\GameServer___Win32_KOR\CastleSiege.obj
+  .\GameServer___Win32_KOR\CastleSiegeSync.obj
+  .\GameServer___Win32_KOR\MapServerManager.obj
+  .\GameServer___Win32_KOR\NpcTalk.obj
+  .\GameServer___Win32_KOR\TRandomPoolMgr.obj
+  .\GameServer___Win32_KOR\LargeRand.obj
+  .\GameServer___Win32_KOR\MultiCheckSum.obj
+  .\GameServer___Win32_KOR\WzMemScript.obj
+  ..\SimpleModulus\Release\SimpleModulus.lib
+  ..\GGSvr\Release\GGSvr.lib
+  GameServer.vcxproj -> C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\GameServer.exe
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer.exe;#1" /manifest "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.exe.intermediate.manifest"
+BscMake:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\GameServer___Win32_KOR\GameServer.bsc" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\cBoundRecordSet.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\classdef.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Commands.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\cRecordSet.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\cSQL.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CSQLValue.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DropEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\EventManager.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\HappyHour.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\HealthBar.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ItemBagEx.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ItemBlock.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Log.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Lottery.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\LuaExport.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MasterReset.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MiniDump.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MonsterHerd.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\KalimaGate.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\gObjMonster.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MonsterAttr.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MonsterItemMng.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MonsterSetBase.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DbSave.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DBSockMng.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DSProtocol.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Moves.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MuLua.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MuMsg.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MyWinsockBase.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\News.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Privilege.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Reconnect.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Reset.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ServerDisplayer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ServerInfo.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SProtocol.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\protocol.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\EDSProtocol.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\NSerialCheck.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\PacketCheckSum.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SQLManager.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TDurMagicKeyChecker.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SendHackLog.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DevilSquare.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DevilSquareGround.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\BattleGround.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\BattleSoccer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\BattleSoccerManager.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DragonEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\AttackEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\EledoradoEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\RingAttackEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Tips.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ToolKit.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TSync.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CastleDeepEvent.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Event.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\EventManagement.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ItemBag.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MagicDamage.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MagicInf.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SkillAdditionInfo.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SkillDelay.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SkillHitBox.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\QuestInfo.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Vip.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\wsGameServer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WzMultiCastSock.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\giocp.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\wsJoinServerCli.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WzQueue.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WzUdp.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MapClass.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MapItem.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ChaosBox.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\AcceptIp.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CLoginCount.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ClosePlayer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ConMember.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\IpCache.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DirPath.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\LogToFile.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MoveCheck.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\winutil.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WhisperCash.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\zzzmathlib.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WZScriptEncode.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CWhatsUpDummyServer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TNotice.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CallStackTrace.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\PartyClass.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GuildClass.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ViewportGuild.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ObjAttack.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ObjBaseAttack.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ObjUseSkill.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\StatMng.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ComboAttack.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ObjCalCharacter.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\DarkSpirit.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TUnion.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TUnionInfo.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\user.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\JewelMixSystem.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SetItemOption.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\zzzitem.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Shop.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GMMng.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MoveCommand.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\SetItemMacro.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameMain.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\StdAfx.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Gate.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\BloodCastle.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\ChaosCastle.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CannonTower.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CastleCrown.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CastleCrownSwitch.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Guardian.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GuardianStatue.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\LifeStone.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Mercenary.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\Weapon.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CastleSiege.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\CastleSiegeSync.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MapServerManager.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\NpcTalk.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\TRandomPoolMgr.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\LargeRand.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\MultiCheckSum.sbr" "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\WzMemScript.sbr"
+FinalizeBuildStatus:
+  Deleting file "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.unsuccessfulbuild".
+  Touching "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\KOR\\GameServer___Win32_KOR\\GameServer___Win32_KOR\GameServer.lastbuildstate".
+Done Building Project "C:\Users\faelhs\mu-1.1\eMu - GameServer Sapphire S0\GameServer\GameServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.96

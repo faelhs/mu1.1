@@ -1,0 +1,167 @@
+﻿Build started 11/04/2019 12:59:01.
+     1>Project "C:\Users\PC\Documents\mu-1.1\eMu - GameServer Sapphire S0\GameServer\GameServer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\GameServer___Win32_KOR\GameServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D INTERNATIONAL_KOREAN /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\GameServer___Win32_KOR\GameServer.pch" /FAcs /Fa".\GameServer___Win32_KOR\\" /Fo".\GameServer___Win32_KOR\\" /Fd".\GameServer___Win32_KOR\vc100.pdb" /FR".\GameServer___Win32_KOR\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D INTERNATIONAL_KOREAN /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\GameServer___Win32_KOR\GameServer.pch" /FAcs /Fa".\GameServer___Win32_KOR\\" /Fo".\GameServer___Win32_KOR\\" /Fd".\GameServer___Win32_KOR\vc100.pdb" /FR".\GameServer___Win32_KOR\\" /Gd /TP /analyze- /errorReport:prompt cBoundRecordSet.cpp classdef.cpp Commands.cpp cRecordSet.cpp cSQL.cpp CSQLValue.cpp DropEvent.cpp EventManager.cpp HappyHour.cpp HealthBar.cpp ItemBagEx.cpp ItemBlock.cpp Log.cpp Lottery.cpp LuaExport.cpp MasterReset.cpp MiniDump.cpp MonsterHerd.cpp KalimaGate.cpp gObjMonster.cpp MonsterAttr.cpp MonsterItemMng.cpp MonsterSetBase.cpp DbSave.cpp DBSockMng.cpp DSProtocol.cpp Moves.cpp MuLua.cpp MuMsg.cpp MyWinsockBase.cpp News.cpp Privilege.cpp Reconnect.cpp Reset.cpp ServerDisplayer.cpp ServerInfo.cpp SProtocol.cpp protocol.cpp EDSProtocol.cpp NSerialCheck.cpp PacketCheckSum.cpp SQLManager.cpp TDurMagicKeyChecker.cpp SendHackLog.cpp DevilSquare.cpp DevilSquareGround.cpp BattleGround.cpp BattleSoccer.cpp BattleSoccerManager.cpp DragonEvent.cpp AttackEvent.cpp EledoradoEvent.cpp RingAttackEvent.cpp Tips.cpp ToolKit.cpp TSync.cpp CastleDeepEvent.cpp Event.cpp EventManagement.cpp ItemBag.cpp MagicDamage.cpp MagicInf.cpp SkillAdditionInfo.cpp SkillDelay.cpp SkillHitBox.cpp QuestInfo.cpp Vip.cpp wsGameServer.cpp WzMultiCastSock.cpp giocp.cpp wsJoinServerCli.cpp WzQueue.cpp WzUdp.cpp MapClass.cpp MapItem.cpp ChaosBox.cpp AcceptIp.cpp CLoginCount.cpp ClosePlayer.cpp ConMember.cpp IpCache.cpp DirPath.cpp LogToFile.cpp MoveCheck.cpp winutil.cpp WhisperCash.cpp zzzmathlib.cpp WZScriptEncode.cpp CWhatsUpDummyServer.cpp TNotice.cpp CallStackTrace.cpp PartyClass.cpp GuildClass.cpp ViewportGuild.cpp ObjAttack.cpp ObjBaseAttack.cpp ObjUseSkill.cpp StatMng.cpp ComboAttack.cpp ObjCalCharacter.cpp DarkSpirit.cpp TUnion.cpp TUnionInfo.cpp user.cpp JewelMixSystem.cpp SetItemOption.cpp zzzitem.cpp Shop.cpp GMMng.cpp MoveCommand.cpp SetItemMacro.cpp GameMain.cpp GameServer.cpp Gate.cpp BloodCastle.cpp ChaosCastle.cpp CannonTower.cpp CastleCrown.cpp CastleCrownSwitch.cpp Guardian.cpp GuardianStatue.cpp LifeStone.cpp Mercenary.cpp Weapon.cpp CastleSiege.cpp CastleSiegeSync.cpp MapServerManager.cpp NpcTalk.cpp TRandomPoolMgr.cpp LargeRand.cpp MultiCheckSum.cpp WzMemScript.cpp
+         cBoundRecordSet.cpp
+         classdef.cpp
+         Commands.cpp
+         cRecordSet.cpp
+         cSQL.cpp
+         CSQLValue.cpp
+         DropEvent.cpp
+         EventManager.cpp
+         HappyHour.cpp
+         HealthBar.cpp
+         ItemBagEx.cpp
+         ItemBlock.cpp
+         Log.cpp
+         Lottery.cpp
+         LuaExport.cpp
+         MasterReset.cpp
+         MiniDump.cpp
+         MonsterHerd.cpp
+         KalimaGate.cpp
+         gObjMonster.cpp
+         Delete this unuseful Code with ADDON gObjMonsterAttack
+         Apply this to create SkyLandShielkds -> gObjSkylandBossSheildAttack 
+         gObjMonsterDieRewardItems Can be activate with the gObjMonsterItemDropLoadScript
+         Generating Code...
+         Compiling...
+         MonsterAttr.cpp
+         MonsterItemMng.cpp
+         MonsterSetBase.cpp
+         DbSave.cpp
+         DBSockMng.cpp
+         DSProtocol.cpp
+         Moves.cpp
+         MuLua.cpp
+         MuMsg.cpp
+         MyWinsockBase.cpp
+         News.cpp
+         Privilege.cpp
+         Reconnect.cpp
+         Reset.cpp
+         ServerDisplayer.cpp
+         ServerInfo.cpp
+         SProtocol.cpp
+         protocol.cpp
+         EDSProtocol.cpp
+         NSerialCheck.cpp
+         Generating Code...
+         Compiling...
+         PacketCheckSum.cpp
+         SQLManager.cpp
+         TDurMagicKeyChecker.cpp
+         SendHackLog.cpp
+         DevilSquare.cpp
+         DevilSquareGround.cpp
+         BattleGround.cpp
+         BattleSoccer.cpp
+         BattleSoccerManager.cpp
+         DragonEvent.cpp
+         AttackEvent.cpp
+         EledoradoEvent.cpp
+         RingAttackEvent.cpp
+         Tips.cpp
+         ToolKit.cpp
+         TSync.cpp
+         CastleDeepEvent.cpp
+         Event.cpp
+         EventManagement.cpp
+         ItemBag.cpp
+         Generating Code...
+         Compiling...
+         MagicDamage.cpp
+         MagicInf.cpp
+         SkillAdditionInfo.cpp
+         SkillDelay.cpp
+         SkillHitBox.cpp
+         QuestInfo.cpp
+         Vip.cpp
+         wsGameServer.cpp
+         WzMultiCastSock.cpp
+         giocp.cpp
+         wsJoinServerCli.cpp
+         WzQueue.cpp
+         WzUdp.cpp
+         MapClass.cpp
+         MapItem.cpp
+         ChaosBox.cpp
+         AcceptIp.cpp
+         CLoginCount.cpp
+         ClosePlayer.cpp
+         ConMember.cpp
+         Generating Code...
+         Compiling...
+         IpCache.cpp
+         DirPath.cpp
+         LogToFile.cpp
+         MoveCheck.cpp
+         winutil.cpp
+         WhisperCash.cpp
+         zzzmathlib.cpp
+         WZScriptEncode.cpp
+         CWhatsUpDummyServer.cpp
+         TNotice.cpp
+         CallStackTrace.cpp
+         PartyClass.cpp
+         GuildClass.cpp
+         ViewportGuild.cpp
+         ObjAttack.cpp
+         ObjBaseAttack.cpp
+         ObjUseSkill.cpp
+         StatMng.cpp
+         ComboAttack.cpp
+         ObjCalCharacter.cpp
+         Generating Code...
+         Compiling...
+         DarkSpirit.cpp
+         TUnion.cpp
+         TUnionInfo.cpp
+         user.cpp
+         JewelMixSystem.cpp
+         SetItemOption.cpp
+         zzzitem.cpp
+         Shop.cpp
+         GMMng.cpp
+         MoveCommand.cpp
+         SetItemMacro.cpp
+         GameMain.cpp
+         GameServer.cpp
+         Optimize this loops on WndProc
+         Gate.cpp
+         BloodCastle.cpp
+         ChaosCastle.cpp
+         CannonTower.cpp
+         CastleCrown.cpp
+         CastleCrownSwitch.cpp
+         Guardian.cpp
+         Generating Code...
+         Compiling...
+         GuardianStatue.cpp
+         LifeStone.cpp
+         Mercenary.cpp
+         Weapon.cpp
+         CastleSiege.cpp
+         CastleSiegeSync.cpp
+         MapServerManager.cpp
+         NpcTalk.cpp
+         TRandomPoolMgr.cpp
+         LargeRand.cpp
+         MultiCheckSum.cpp
+         WzMemScript.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo".\GameServer___Win32_KOR\GameServer.res" GameServer.rc 
+       MakeDirsForLink:
+         Creating directory "D:\HGT - Sapphire 0.0\Servidor\GameServer".
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1029,5): error MSB3191: Unable to create directory "D:\HGT - Sapphire 0.0\Servidor\GameServer". Could not find a part of the path 'D:\HGT - Sapphire 0.0\Servidor\GameServer'.
+     1>Done Building Project "C:\Users\PC\Documents\mu-1.1\eMu - GameServer Sapphire S0\GameServer\GameServer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:40.26

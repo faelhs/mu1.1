@@ -1,0 +1,80 @@
+﻿Build started 11/04/2019 13:15:23.
+     1>Project "C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Main\Main.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\".
+       InitializeBuildStatus:
+         Creating "Release\Main.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Console.cpp Controller.cpp CRC.cpp DrawUserInfo.cpp Font.cpp GlowManager.cpp HealthBar.cpp Interface.cpp ItemManager.cpp Main.cpp MainInfo.cpp MathLib.cpp Memory.cpp MiniMap.cpp Monster.cpp Plugins.cpp Points.cpp Protect.cpp Protocol.cpp Reconnect.cpp Encode.cpp ToolKit.cpp User.cpp VisualFix.cpp Window.cpp WingManager.cpp
+         Camera.cpp
+         Console.cpp
+         Controller.cpp
+         CRC.cpp
+         DrawUserInfo.cpp
+         Font.cpp
+         GlowManager.cpp
+         HealthBar.cpp
+         Interface.cpp
+         ItemManager.cpp
+         Main.cpp
+         MainInfo.cpp
+         MathLib.cpp
+         Memory.cpp
+         MiniMap.cpp
+         Monster.cpp
+         Plugins.cpp
+         Points.cpp
+         Protect.cpp
+         Protocol.cpp
+         Compiling...
+         Reconnect.cpp
+         Encode.cpp
+         ToolKit.cpp
+         User.cpp
+         VisualFix.cpp
+         Window.cpp
+         WingManager.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Main.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\Main.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.lib" /MACHINE:X86 /DLL Release\Camera.obj
+         Release\Console.obj
+         Release\Controller.obj
+         Release\CRC.obj
+         Release\DrawUserInfo.obj
+         Release\Font.obj
+         Release\GlowManager.obj
+         Release\HealthBar.obj
+         Release\Interface.obj
+         Release\ItemManager.obj
+         Release\Main.obj
+         Release\MainInfo.obj
+         Release\MathLib.obj
+         Release\Memory.obj
+         Release\MiniMap.obj
+         Release\Monster.obj
+         Release\Plugins.obj
+         Release\Points.obj
+         Release\Protect.obj
+         Release\Protocol.obj
+         Release\Reconnect.obj
+         Release\Encode.obj
+         Release\ToolKit.obj
+         Release\User.obj
+         Release\VisualFix.obj
+         Release\Window.obj
+         Release\WingManager.obj
+            Creating library C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.lib and object C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.exp
+         Generating code
+         Finished generating code
+     1>Detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'Detours.lib(detours.obj)' or at 'C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\detours.pdb'; linking object as if no debug info
+     1>Detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'Detours.lib(disasm.obj)' or at 'C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\detours.pdb'; linking object as if no debug info
+         Main.vcxproj -> C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Release\\Main.dll;#2" /manifest Release\Main.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Main.unsuccessfulbuild".
+         Touching "Release\Main.lastbuildstate".
+     1>Done Building Project "C:\Users\PC\Documents\mu-1.1\eMu - Main Sapphire S0\Main\Main.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:46.83
